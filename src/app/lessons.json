@@ -1,105 +1,126 @@
 {
-    "list_name": "Programming Lecture Series",
-    "lectures": [
-      {
-        "id": 1,
-        "title": "Introduction to Python Programming",
-        "lecturer": "Alice Johnson",
-        "description": "An introductory lecture on Python programming language covering basic syntax and concepts.",
-        "text": "Python is a versatile and powerful programming language commonly used for web development, data analysis, artificial intelligence, and scientific computing. It features a simple and elegant syntax that emphasizes readability and reduces the cost of program maintenance. In this lecture, participants will explore the history of Python and its evolution into a popular language among developers worldwide. They will learn about Python's core principles, such as readability, simplicity, and flexibility, and how these principles contribute to its widespread adoption and success. The lecture will also cover the installation and setup of Python development environment, including popular IDEs like PyCharm and Jupyter Notebook. Participants will be introduced to Python's interactive shell and learn how to execute Python scripts from the command line. By the end of the lecture, attendees will have a solid understanding of Python's fundamentals and be ready to embark on their programming journey with Python.",
-        "links": ["https://example.com/lecture1", "https://youtube.com/lecture1"],
-        "completed": true
-      },
-      {
-        "id": 2,
-        "title": "Data Structures and Algorithms",
-        "lecturer": "Bob Smith",
-        "description": "A comprehensive overview of common data structures and algorithms used in programming.",
-        "text": "Data structures and algorithms are fundamental concepts in computer science essential for solving complex problems efficiently. In this lecture, participants will delve into the world of data structures, including arrays, linked lists, stacks, queues, trees, and graphs. They will learn how to implement and manipulate these data structures and understand their strengths and weaknesses in different scenarios. The lecture will also cover essential algorithms such as searching, sorting, and graph traversal, along with their time and space complexities. Participants will gain hands-on experience by solving algorithmic problems and implementing data structures in a programming language of their choice. By the end of the lecture, attendees will have a solid foundation in data structures and algorithms and be equipped with problem-solving skills crucial for software development.",
-        "links": ["https://example.com/lecture2", "https://youtube.com/lecture2"],
-        "completed": true
-      },
-      {
-        "id": 3,
-        "title": "Web Development Fundamentals",
-        "lecturer": "Charlie Brown",
-        "description": "A beginner-friendly lecture on the basics of web development including HTML, CSS, and JavaScript.",
-        "text": "Web development is the process of building and maintaining websites and web applications. In this lecture, participants will learn about the three essential technologies of web development: HTML, CSS, and JavaScript. They will understand HTML's role in structuring web pages, CSS's role in styling and layout, and JavaScript's role in adding interactivity and dynamic behavior. Participants will also explore modern web development tools and frameworks such as Bootstrap and React.js. The lecture will include practical examples and hands-on exercises to reinforce learning and provide real-world context. By the end of the lecture, attendees will have a solid understanding of web development fundamentals and be ready to dive deeper into more advanced topics.",
-        "links": ["https://example.com/lecture3", "https://youtube.com/lecture3"],
-        "completed": false
-      },
-      {
-        "id": 4,
-        "title": "Introduction to Machine Learning",
-        "lecturer": "Diana Clark",
-        "description": "An overview of machine learning concepts and algorithms with practical examples.",
-        "text": "Machine learning is a subfield of artificial intelligence that focuses on the development of algorithms that can learn from and make predictions on data. In this lecture, participants will be introduced to the core concepts of machine learning, including supervised learning, unsupervised learning, and reinforcement learning. They will explore various machine learning algorithms such as linear regression, logistic regression, decision trees, and neural networks. The lecture will also cover practical aspects of machine learning, such as data preprocessing, model evaluation, and hyperparameter tuning. Participants will gain hands-on experience by implementing machine learning algorithms in Python using popular libraries like scikit-learn. By the end of the lecture, attendees will have a broad understanding of machine learning principles and be ready to apply them to real-world problems.",
-        "links": ["https://example.com/lecture4", "https://youtube.com/lecture4"],
-        "completed": false
-      },
-      {
-        "id": 5,
-        "title": "Mobile App Development with React Native",
-        "lecturer": "Evan Williams",
-        "description": "A hands-on lecture on building mobile apps using React Native framework.",
-        "text": "React Native is a popular framework for building cross-platform mobile applications using JavaScript and React. In this lecture, participants will learn the fundamentals of React Native development and how to build mobile apps that run on both iOS and Android platforms. They will understand React Native's component-based architecture and how to create reusable UI components. The lecture will cover topics such as navigation, state management, and integrating native device features. Participants will also learn about debugging techniques and performance optimization strategies specific to React Native development. By the end of the lecture, attendees will have the knowledge and skills to develop their own mobile apps using React Native.",
-        "links": ["https://example.com/lecture5", "https://youtube.com/lecture5"],
-        "completed": true
-      },
-      {
-        "id": 6,
-        "title": "Software Engineering Best Practices",
-        "lecturer": "Fiona Taylor",
-        "description": "Best practices and methodologies for software development lifecycle and project management.",
-        "text": "Software engineering is the discipline of designing, developing, and maintaining software systems efficiently and reliably. In this lecture, participants will learn about best practices and methodologies for software development lifecycle (SDLC) and project management. They will explore different SDLC models such as Waterfall, Agile, and DevOps, and understand when to use each model based on project requirements. The lecture will cover topics such as requirements analysis, system design, implementation, testing, deployment, and maintenance. Participants will also learn about tools and techniques for project planning, tracking, and collaboration. By the end of the lecture, attendees will have a solid understanding of software engineering best practices and be ready to apply them to real-world projects.",
-        "links": ["https://example.com/lecture6", "https://youtube.com/lecture6"],
-        "completed": true
-      },
-      {
-        "id": 7,
-        "title": "Introduction to Blockchain Technology",
-        "lecturer": "George Martin",
-        "description": "An overview of blockchain technology, its applications, and future trends.",
-        "text": "Blockchain technology is a distributed ledger technology that underlies cryptocurrencies like Bitcoin. In this lecture, participants will learn about the core principles of blockchain, including decentralization, transparency, and immutability. They will understand how blockchain works, including concepts such as blocks, transactions, and consensus mechanisms. The lecture will cover various blockchain use cases beyond cryptocurrencies, such as supply chain management, identity verification, and smart contracts. Participants will also explore emerging trends in the blockchain space, such as decentralized finance (DeFi) and non-fungible tokens (NFTs). By the end of the lecture, attendees will have a comprehensive understanding of blockchain technology and its potential applications across different industries.",
-        "links": ["https://example.com/lecture7", "https://youtube.com/lecture7"],
-        "completed": false
-      },
-      {
-        "id": 8,
-        "title": "Cybersecurity Essentials",
-        "lecturer": "Hannah White",
-        "description": "Key concepts and practices in cybersecurity to protect digital assets and data.",
-        "text": "Cybersecurity is the practice of protecting digital assets and data from unauthorized access, attacks, and theft. In this lecture, participants will learn about key cybersecurity concepts and best practices to mitigate cyber threats. They will understand the importance of confidentiality, integrity, and availability in maintaining information security. The lecture will cover various cybersecurity topics such as network security, cryptography, access control, and security incident response. Participants will also learn about common cyber threats and attack vectors, and techniques for detecting and preventing security breaches. By the end of the lecture, attendees will have a foundational understanding of cybersecurity essentials and be better prepared to protect their digital assets and data.",
-        "links": ["https://example.com/lecture8", "https://youtube.com/lecture8"],
-        "completed": true
-      },
-      {
-        "id": 9,
-        "title": "Cloud Computing Fundamentals",
-        "lecturer": "Ian Johnson",
-        "description": "An introduction to cloud computing services and architectures.",
-        "text": "Cloud computing is the delivery of computing services over the internet, offering on-demand access to resources such as compute power, storage, and databases. In this lecture, participants will learn about the fundamentals of cloud computing, including its benefits, deployment models, and service models. They will understand the differences between public, private, and hybrid cloud environments, and their respective advantages and limitations. The lecture will cover popular cloud computing providers such as Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP). Participants will also learn about cloud computing architectures such as Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS). By the end of the lecture, attendees will have a clear understanding of cloud computing fundamentals and be ready to leverage cloud services for their applications and businesses.",
-        "links": ["https://example.com/lecture9", "https://youtube.com/lecture9"],
-        "completed": false
-      },
-      {
-        "id": 10,
-        "title": "Advanced JavaScript Techniques",
-        "lecturer": "Jack Brown",
-        "description": "Advanced concepts and techniques in JavaScript programming language.",
-        "text": "JavaScript is a versatile and powerful programming language commonly used for building dynamic and interactive web applications. In this lecture, participants will dive into advanced JavaScript concepts and techniques to enhance their programming skills. They will learn about topics such as closures, prototypes, async/await, functional programming, and module bundling. The lecture will also cover modern JavaScript features introduced in ES6 and beyond, such as arrow functions, template literals, and destructuring assignment. Participants will explore practical examples and use cases to understand how to apply these advanced techniques in their projects. By the end of the lecture, attendees will have a deeper understanding of JavaScript and be better equipped to develop sophisticated web applications.",
-        "links": ["https://example.com/lecture10", "https://youtube.com/lecture10"],
-        "completed": true
-      },
-      {
-        "id": 11,
-        "title": "Software Testing Fundamentals",
-        "lecturer": "Kelly Lee",
-        "description": "An essential overview of software testing principles, methodologies, and techniques.",
-        "text": "Software testing is the process of evaluating a software application or system to ensure that it meets specified requirements and functions correctly. In this lecture, participants will learn about the importance of software testing and its role in delivering high-quality software products. They will understand different testing levels such as unit testing, integration testing, system testing, and acceptance testing, and their respective objectives and techniques. The lecture will cover various testing methodologies such as black-box testing, white-box testing, and gray-box testing, and when to use each approach. Participants will also learn about test automation tools and frameworks to streamline the testing process and improve efficiency. By the end of the lecture, attendees will have a comprehensive understanding of software testing fundamentals and be able to apply testing principles to ensure the reliability and robustness of their software applications.",
-        "links": ["https://example.com/lecture11", "https://youtube.com/lecture11"],
-        "completed": false
-      }
-    ]
-  }
-  
+  "list_name": "Programming Lecture Series",
+  "lectures": [
+    {
+      "id": 1,
+      "title": "Introduction to Python Programming",
+      "lecturer": "Alice Johnson",
+      "description": "An introductory lecture on Python programming language covering basic syntax and concepts.",
+      "about": "Alice Johnson is a senior software engineer with over 10 years of experience in Python development. She has worked on various projects ranging from web development to data analysis and machine learning. Alice is passionate about teaching and has conducted numerous workshops and training sessions on Python programming.",
+      "text": "Python is a versatile and powerful programming language commonly used for web development, data analysis, artificial intelligence, and scientific computing. It features a simple and elegant syntax that emphasizes readability and reduces the cost of program maintenance. In this lecture, participants will explore the history of Python and its evolution into a popular language among developers worldwide. They will learn about Python's core principles, such as readability, simplicity, and flexibility, and how these principles contribute to its widespread adoption and success. The lecture will also cover the installation and setup of Python development environment, including popular IDEs like PyCharm and Jupyter Notebook. Participants will be introduced to Python's interactive shell and learn how to execute Python scripts from the command line. By the end of the lecture, attendees will have a solid understanding of Python's fundamentals and be ready to embark on their programming journey with Python.",
+      "links": ["https://example.com/lecture1", "https://youtube.com/lecture1"],
+      "completed": true,
+      "image": "/Images/d-1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Data Structures and Algorithms",
+      "lecturer": "Bob Smith",
+      "description": "A comprehensive overview of common data structures and algorithms used in programming.",
+      "about": "Bob Smith is a computer science professor with expertise in data structures and algorithms. He holds a Ph.D. in Computer Science from Stanford University and has published several research papers in top-tier conferences and journals. Bob is passionate about teaching and has received accolades for his engaging and informative lectures.",
+      "text": "Data structures and algorithms are fundamental concepts in computer science essential for solving complex problems efficiently. In this lecture, participants will delve into the world of data structures, including arrays, linked lists, stacks, queues, trees, and graphs. They will learn how to implement and manipulate these data structures and understand their strengths and weaknesses in different scenarios. The lecture will also cover essential algorithms such as searching, sorting, and graph traversal, along with their time and space complexities. Participants will gain hands-on experience by solving algorithmic problems and implementing data structures in a programming language of their choice. By the end of the lecture, attendees will have a solid foundation in data structures and algorithms and be equipped with problem-solving skills crucial for software development.",
+      "links": ["https://example.com/lecture2", "https://youtube.com/lecture2"],
+      "completed": true,
+      "image": "/Images/m-1.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Web Development Fundamentals",
+      "lecturer": "Charlie Brown",
+      "description": "A beginner-friendly lecture on the basics of web development including HTML, CSS, and JavaScript.",
+      "about": "Charlie Brown is a front-end developer with expertise in HTML, CSS, and JavaScript. He has worked on numerous web development projects for startups and Fortune 500 companies. Charlie is passionate about sharing his knowledge and regularly contributes to open-source projects and developer communities.",
+      "text": "Web development is the process of building and maintaining websites and web applications. In this lecture, participants will learn about the three essential technologies of web development: HTML, CSS, and JavaScript. They will understand HTML's role in structuring web pages, CSS's role in styling and layout, and JavaScript's role in adding interactivity and dynamic behavior. Participants will also explore modern web development tools and frameworks such as Bootstrap and React.js. The lecture will include practical examples and hands-on exercises to reinforce learning and provide real-world context. By the end of the lecture, attendees will have a solid understanding of web development fundamentals and be ready to dive deeper into more advanced topics.",
+      "links": ["https://example.com/lecture3", "https://youtube.com/lecture3"],
+      "completed": false,
+      "image": "/Images/m-2.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Introduction to Machine Learning",
+      "lecturer": "Diana Clark",
+      "description": "An overview of machine learning concepts and algorithms with practical examples.",
+      "about": "Diana Clark is a data scientist specializing in machine learning and artificial intelligence. She holds a Master's degree in Computer Science from MIT and has extensive experience working on AI-powered applications for healthcare and finance industries. Diana is passionate about leveraging technology to solve real-world problems and regularly speaks at conferences and industry events.",
+      "text": "Machine learning is a subfield of artificial intelligence that focuses on the development of algorithms that can learn from and make predictions on data. In this lecture, participants will be introduced to the core concepts of machine learning, including supervised learning, unsupervised learning, and reinforcement learning. They will explore various machine learning algorithms such as linear regression, logistic regression, decision trees, and neural networks. The lecture will also cover practical aspects of machine learning, such as data preprocessing, model evaluation, and hyperparameter tuning. Participants will gain hands-on experience by implementing machine learning algorithms in Python using popular libraries like scikit-learn. By the end of the lecture, attendees will have a broad understanding of machine learning principles and be ready to apply them to real-world problems.",
+      "links": ["https://example.com/lecture4", "https://youtube.com/lecture4"],
+      "completed": false,
+      "image": "/Images/d-2.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Mobile App Development with React Native",
+      "lecturer": "Evan Williams",
+      "description": "A hands-on lecture on building mobile apps using React Native framework.",
+      "about": "Evan Williams is a mobile app developer specializing in React Native and cross-platform development. He has built several successful mobile applications for clients across various industries. Evan is passionate about creating intuitive and user-friendly mobile experiences and enjoys sharing his expertise with aspiring developers.",
+      "text": "React Native is a popular framework for building cross-platform mobile applications using JavaScript and React. In this lecture, participants will learn the fundamentals of React Native development and how to build mobile apps that run on both iOS and Android platforms. They will understand React Native's component-based architecture and how to create reusable UI components. The lecture will cover topics such as navigation, state management, and integrating native device features. Participants will also learn about debugging techniques and performance optimization strategies specific to React Native development. By the end of the lecture, attendees will have the knowledge and skills to develop their own mobile apps using React Native.",
+      "links": ["https://example.com/lecture5", "https://youtube.com/lecture5"],
+      "completed": true,
+      "image": "/Images/m-3.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Software Engineering Best Practices",
+      "lecturer": "Fiona Taylor",
+      "description": "Best practices and methodologies for software development lifecycle and project management.",
+      "about": "Fiona Taylor is a seasoned software engineer with expertise in software development lifecycle (SDLC) and project management. She has led multiple software projects from conception to delivery and has a proven track record of delivering high-quality software products on time and within budget. Fiona is passionate about mentoring junior developers and helping teams adopt best practices for software development.",
+      "text": "Software engineering is the discipline of designing, developing, and maintaining software systems efficiently and reliably. In this lecture, participants will learn about best practices and methodologies for software development lifecycle (SDLC) and project management. They will explore different SDLC models such as Waterfall, Agile, and DevOps, and understand when to use each model based on project requirements. The lecture will cover topics such as requirements analysis, system design, implementation, testing, deployment, and maintenance. Participants will also learn about tools and techniques for project planning, tracking, and collaboration. By the end of the lecture, attendees will have a solid understanding of software engineering best practices and be ready to apply them to real-world projects.",
+      "links": ["https://example.com/lecture6", "https://youtube.com/lecture6"],
+      "completed": true,
+      "image": "/Images/d-3.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Introduction to Blockchain Technology",
+      "lecturer": "George Martin",
+      "description": "An overview of blockchain technology, its applications, and future trends.",
+      "about": "George Martin is a blockchain enthusiast with a background in finance and technology. He has been actively involved in the blockchain space since its early days and has contributed to several blockchain projects. George is passionate about educating others about the potential of blockchain technology to transform industries and create new opportunities.",
+      "text": "Blockchain technology is a distributed ledger technology that underlies cryptocurrencies like Bitcoin. In this lecture, participants will learn about the core principles of blockchain, including decentralization, transparency, and immutability. They will understand how blockchain works, including concepts such as blocks, transactions, and consensus mechanisms. The lecture will cover various blockchain use cases beyond cryptocurrencies, such as supply chain management, identity verification, and smart contracts. Participants will also explore emerging trends in the blockchain space, such as decentralized finance (DeFi) and non-fungible tokens (NFTs). By the end of the lecture, attendees will have a comprehensive understanding of blockchain technology and its potential applications across different industries.",
+      "links": ["https://example.com/lecture7", "https://youtube.com/lecture7"],
+      "completed": false,
+      "image": "/Images/m-4.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Cybersecurity Essentials",
+      "lecturer": "Hannah White",
+      "description": "Key concepts and practices in cybersecurity to protect digital assets and data.",
+      "about": "Hannah White is a cybersecurity expert with extensive experience in protecting organizations from cyber threats. She has worked in both public and private sectors, helping organizations strengthen their cybersecurity posture and mitigate risks. Hannah is passionate about raising awareness about cybersecurity and empowering individuals and businesses to protect their digital assets.",
+      "text": "Cybersecurity is the practice of protecting digital assets and data from unauthorized access, attacks, and theft. In this lecture, participants will learn about key cybersecurity concepts and best practices to mitigate cyber threats. They will understand the importance of confidentiality, integrity, and availability in maintaining information security. The lecture will cover various cybersecurity topics such as network security, cryptography, access control, and security incident response. Participants will also learn about common cyber threats and attack vectors, and techniques for detecting and preventing security breaches. By the end of the lecture, attendees will have a foundational understanding of cybersecurity essentials and be better prepared to protect their digital assets and data.",
+      "links": ["https://example.com/lecture8", "https://youtube.com/lecture8"],
+      "completed": true,
+      "image": "/Images/d-4.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Cloud Computing Fundamentals",
+      "lecturer": "Ian Johnson",
+      "description": "An introduction to cloud computing services and architectures.",
+      "about": "Ian Johnson is a cloud architect with expertise in designing and implementing scalable and resilient cloud solutions. He has worked with various cloud providers and helped organizations migrate their workloads to the cloud. Ian is passionate about helping businesses leverage cloud technologies to innovate and drive digital transformation.",
+      "text": "Cloud computing is the delivery of computing services over the internet, offering on-demand access to resources such as compute power, storage, and databases. In this lecture, participants will learn about the fundamentals of cloud computing, including its benefits, deployment models, and service models. They will understand the differences between public, private, and hybrid cloud environments, and their respective advantages and limitations. The lecture will cover popular cloud computing providers such as Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP). Participants will also learn about cloud computing architectures such as Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS). By the end of the lecture, attendees will have a clear understanding of cloud computing fundamentals and be ready to leverage cloud services for their applications and businesses.",
+      "links": ["https://example.com/lecture9", "https://youtube.com/lecture9"],
+      "completed": false,
+      "image": "/Images/m-5.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Advanced JavaScript Techniques",
+      "lecturer": "Jack Brown",
+      "description": "Advanced concepts and techniques in JavaScript programming language.",
+      "about": "Jack Brown is a front-end developer specializing in JavaScript and web application development. He has a deep understanding of JavaScript ecosystem and has built several complex applications using modern JavaScript frameworks. Jack is passionate about teaching and regularly conducts workshops and training sessions on advanced JavaScript topics.",
+      "text": "JavaScript is a versatile and powerful programming language commonly used for building dynamic and interactive web applications. In this lecture, participants will dive into advanced JavaScript concepts and techniques to enhance their programming skills. They will learn about topics such as closures, prototypes, async/await, functional programming, and module bundling. The lecture will also cover modern JavaScript features introduced in ES6 and beyond, such as arrow functions, template literals, and destructuring assignment. Participants will explore practical examples and use cases to understand how to apply these advanced techniques in their projects. By the end of the lecture, attendees will have a deeper understanding of JavaScript and be better equipped to develop sophisticated web applications.",
+      "links": ["https://example.com/lecture10", "https://youtube.com/lecture10"],
+      "completed": true,
+      "image": "/Images/m-6.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Software Testing Fundamentals",
+      "lecturer": "Kelly Lee",
+      "description": "An essential overview of software testing principles, methodologies, and techniques.",
+      "about": "Kelly Lee is a software quality assurance engineer with expertise in software testing and quality management. She has worked on multiple software projects across various industries, ensuring product quality and reliability. Kelly is passionate about promoting quality culture and helping teams deliver high-quality software products.",
+      "text": "Software testing is the process of evaluating a software application or system to ensure that it meets specified requirements and functions correctly. In this lecture, participants will learn about the importance of software testing and its role in delivering high-quality software products. They will understand different testing levels such as unit testing, integration testing, system testing, and acceptance testing, and their respective objectives and techniques. The lecture will cover various testing methodologies such as black-box testing, white-box testing, and gray-box testing, and when to use each approach. Participants will also learn about test automation tools and frameworks to streamline the testing process and improve efficiency. By the end of the lecture, attendees will have a comprehensive understanding of software testing fundamentals and be able to apply testing principles to ensure the reliability and robustness of their software applications.",
+      "links": ["https://example.com/lecture11", "https://youtube.com/lecture11"],
+      "completed": false,
+      "image": "/Images/d-5.jpg"
+    }
+  ]
+}
