@@ -4,7 +4,7 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <main className={styles.main}
       <h1 className={styles.headerMain}>Available lectures</h1>
       <ol>
        {lessons.lectures.map((lecture)=> {
