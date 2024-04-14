@@ -5,13 +5,14 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <main className={styles.main}>
-      <ul>
+      <h1 className={styles.headerMain}>Available lectures</h1>
+      <ol>
        {lessons.lectures.map((lecture)=> {
-        return <li key={lecture.id}>
+        return <li className={styles.item}key={lecture.id}>
           <Lesson title={lecture.title} lecturer={lecture.lecturer} description={lecture.description}/>
         </li>
        })}
-      </ul>
+      </ol>
     </main>
   );
 }
