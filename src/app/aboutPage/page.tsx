@@ -1,5 +1,5 @@
 import lessons from "../lessons.json";
-import { AboutDetails } from "../aboutDetails/page";
+import AboutDetails from "../aboutDetails/aboutDetails";
 
 
 export default function AboutPage() {
