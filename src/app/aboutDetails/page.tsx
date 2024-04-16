@@ -12,8 +12,9 @@ export function AboutDetails({title, lecturer, image}: DetailsProps) {
 
   return (
     <div>
-     <Image src={image} alt='human' width={300} height={200}/> 
-     <h2>{lecturer}</h2>
+      <h2>{lecturer}</h2>
+     <Image src={image} alt='human' width={350} height={200}/> 
+
       
     </div>
   );

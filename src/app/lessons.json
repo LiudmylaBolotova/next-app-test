@@ -121,6 +121,17 @@
       "links": ["https://example.com/lecture11", "https://youtube.com/lecture11"],
       "completed": false,
       "image": "/Images/d-5.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Frontend Development with React",
+      "lecturer": "Lucy Smith",
+      "description": "An in-depth exploration of frontend development using the React library.",
+      "about": "Lucy Smith is a frontend developer with extensive experience in building user interfaces with React. She has worked on various projects ranging from small-scale applications to large enterprise solutions. Lucy is passionate about creating intuitive and responsive user experiences and enjoys sharing her knowledge with the developer community.",
+      "text": "React is a popular JavaScript library for building user interfaces, particularly for single-page applications and large-scale projects. In this lecture, participants will learn about the core concepts of React, including components, state, props, and lifecycle methods. They will understand React's component-based architecture and how to design reusable and maintainable UI components. The lecture will cover topics such as JSX syntax, virtual DOM, and React hooks for managing state and side effects. Participants will also learn about React Router for navigation and Redux for state management. The lecture will include practical examples and hands-on exercises to reinforce learning and provide real-world context. By the end of the lecture, attendees will have a solid understanding of frontend development with React and be ready to build their own React applications.",
+      "links": ["https://example.com/lecture12", "https://youtube.com/lecture12"],
+      "completed": false,
+      "image": "/Images/d-6.jpg"
     }
   ]
 }
