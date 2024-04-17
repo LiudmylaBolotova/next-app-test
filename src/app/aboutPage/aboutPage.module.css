@@ -1,0 +1,11 @@
+.lecturersList {
+  width: 800px;
+  background-color: var(--bgcPage);
+  margin: auto;
+  padding: 30px;
+}
+
+.lecturersItem {
+  padding-bottom: 20px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,23 @@
+.item {
+  display: flex;
+  align-items: start;
+  gap: 3rem;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lecturerName {
+  font-size: xx-large;
+  font-weight: 900;
+}
+
+.img {
+    margin-left: 10px;
+  border-radius: 5px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+}

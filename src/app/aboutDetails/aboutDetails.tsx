@@ -1,17 +1,27 @@
 import Image from "next/image";
+import styles from "./aboutDetails.module.css";
 
 type DetailsProps = {
-  title: string;
+  about: string;
   lecturer: string;
   image: string;
 };
 
-export default function AboutDetails({ title, lecturer, image }: DetailsProps) {
+export default function AboutDetails({ about, lecturer, image }: DetailsProps) {
   return (
-    <div>
-      <h2>{lecturer}</h2>
-      <Image src={image} alt="human" width={350} height={200} />
-      <p>{title}</p>
+    <div className={styles.section}>
+      <h2 className={styles.lecturerName}>{lecturer}</h2>
+      <div className={styles.item}>
+        <Image
+          src={image}
+          alt={`Foto of ${lecturer}`}
+          loading="eager"
+          width={350}
+          height={200}
+          className={styles.img}
+        />
+        <p>{about}</p>
+      </div>
     </div>
   );
 }
