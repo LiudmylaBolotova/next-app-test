@@ -1,1 +1,1 @@
-type Params = {params: Record<number>}
+type Params = {params: Record<string, string>}

@@ -1,6 +1,14 @@
-import lessons from '../lessons.json';
+import lecturers from '../lecturers.json';
+import Error from '../error';
 
-export function getArticleByName(articleName: number) {
-const getId = articleName;
-return getId;
+export function getArticleByName(articleName: string) {
+  const article = lecturers.find((x) => x.name === articleName);
+
+  if (!article) {
+    return "I am bad";
+  }
+
+  return article;
+
+
   }

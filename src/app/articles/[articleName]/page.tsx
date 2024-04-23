@@ -2,15 +2,16 @@ import lessons from "../../lessons.json";
 import { getArticleByName } from "@/app/(server)/api";
 
 
-export default async function ArticlePage({params}: Params) {
+export default function ArticlePage({params}: Params) {
 
   const {articleName} = params;
 
  
 
-  const obj = await getArticleByName(articleName);
+  const obj = getArticleByName(articleName);
+  
 
-  return obj;
+  console.log(obj)
 }
 
 
