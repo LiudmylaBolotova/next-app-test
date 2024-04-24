@@ -1,17 +1,27 @@
-import lessons from "../../lessons.json";
-import { getArticleByName } from "@/app/(server)/api";
+
+import { getAllLecturers } from "@/app/(server)/api";
 
 
-export default function ArticlePage({params}: Params) {
+export default async function ArticlePage() {
 
-  const {articleName} = params;
 
  
 
-  const obj = getArticleByName(articleName);
+  const obj = await getAllLecturers();
   
 
-  console.log(obj)
+  return (
+    <ul>
+      {obj.map((item) => {
+        return (
+          <li key={item.id}>
+            <h2>{item.name}</h2>
+            <p>{item.text}</p>
+          </li>
+        )
+      })}
+    </ul>
+  )
 }
 
 
