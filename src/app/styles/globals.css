@@ -11,8 +11,18 @@ body {
 }
 
 h1 {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  color: var(--blue);
+  font-size: xx-large;
+  font-weight: bolder;
+  
+  color: var(--headerMain);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+  font-size: xx-large;
+  font-weight:500;
+
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 ul li {

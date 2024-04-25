@@ -10,7 +10,7 @@ type DetailsProps = {
 export default function AboutDetails({ about, lecturer, image }: DetailsProps) {
   return (
     <div className={styles.section}>
-      <h2 className={styles.lecturerName}>{lecturer}</h2>
+      <h2>{lecturer}</h2>
       <div className={styles.item}>
         <Image
           src={image}
