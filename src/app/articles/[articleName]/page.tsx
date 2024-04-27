@@ -1,16 +1,11 @@
 import {getArticleById} from '../../(server)/api';
 
-interface ArticleName {
-    id: number;
-    name: string;
-    text: string;
-    
-}
-
 
 export default async function ArticlePage({params}: Params) {
 const {articleName} = params;
-const article = await getArticleById(articleName);
+const articleId: number = parseInt(articleName, 10);
+
+const article = await getArticleById(articleId);
 
 if (!article) {
     return <p>Errorrrrrrrrrrrrrrrrrrr</p>

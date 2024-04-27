@@ -5,8 +5,9 @@ export function getAllLecturers() {
   return lecturers;
 }
 
-export function getArticleById(articleName: string) {
-  const article = articles.find((x) => x.name === articleName);
+export function getArticleById(articleName: number) {
+  
+  const article = articles.find((x) => x.id === articleName);
   
   if (!article) {
     return;
