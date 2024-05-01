@@ -1,6 +1,8 @@
 import { getArticleById } from "../../(server)/api";
 import { AppLink } from '../../app-link/app-link';
+import styles from './articleName.module.css';
 import Image from "next/image";
+
 
 export default async function ArticlePage({ params }: Params) {
   const { articleName } = params;
@@ -10,7 +12,8 @@ export default async function ArticlePage({ params }: Params) {
 
   if (article) {
     return (
-      <div>
+      <div className={styles.sectionLecturer}>
+      <p>{article.name}</p>
       <div>
       <Image
           src={article.image}
@@ -21,7 +24,6 @@ export default async function ArticlePage({ params }: Params) {
          
         />
       </div>
-        <p>{article.name}</p>
         <p>{article.text}</p>
       </div>
     );
