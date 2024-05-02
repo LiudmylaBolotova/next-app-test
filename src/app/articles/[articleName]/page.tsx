@@ -21,7 +21,7 @@ export default async function ArticlePage({ params }: Params) {
           loading="eager"
           width={350}
           height={250}
-         
+         className={styles.articleImg}
         />
       </div>
         <p>{article.text}</p>

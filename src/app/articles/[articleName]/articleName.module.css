@@ -4,3 +4,9 @@
 align-items: center;
 
 }
+
+.articleImg {
+    margin-left: 10px;
+    border-radius: 5px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+}

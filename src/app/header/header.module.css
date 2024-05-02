@@ -1,11 +1,13 @@
 .logo {
-    border: 1 solid var(--headerMain);
-    border-radius: 8px;
-    box-shadow: 2px 2px 4px rgb(3, 3, 35);
+
+  border-radius: 5px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
 }
 
 .headerContainer {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
