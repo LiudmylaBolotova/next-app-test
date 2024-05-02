@@ -1,0 +1,11 @@
+.logo {
+    border: 1 solid var(--headerMain);
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgb(3, 3, 35);
+}
+
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

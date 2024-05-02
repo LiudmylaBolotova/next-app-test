@@ -24,19 +24,19 @@ export default function ArticlesPage({
   };
 
   return (
-<>
-<h1>All articles, page: {page}</h1>
+<main>
+<h2>All articles, page: {page}</h2>
     <ul>
       {articles.map((item) => {
         return (
           <li key={item.id}>
-            <h2>{item.name}</h2>
+            <h3>{item.name}</h3>
             <p>{item.text}</p>
           </li>
         );
       })}
     </ul>
     <AppLink href={nextPageUrl}>Next</AppLink>
-</>
+</main>
   );
 }

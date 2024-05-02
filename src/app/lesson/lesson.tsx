@@ -9,9 +9,9 @@ type LessonProps = {
 export function Lesson({ title, lecturer, description }: LessonProps) {
   return (
     <div>
-      <h2 className={styles.headerMiddle}>{title}</h2>
+      <h3 className={styles.headerMiddle}>{title}</h3>
 
-      <h3 className={styles.headerSmall}>{lecturer}</h3>
+      <h4 className={styles.headerSmall}>{lecturer}</h4>
       <p>{description}</p>
     </div>
   );

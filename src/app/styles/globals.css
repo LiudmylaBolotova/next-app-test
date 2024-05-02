@@ -25,6 +25,20 @@ h2 {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
+h3 {
+  font-size: xx-large;
+  font-weight:400;
+
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h4 {
+  font-size: xx-large;
+  font-weight:300;
+
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
 ul li {
   list-style: none;
 }

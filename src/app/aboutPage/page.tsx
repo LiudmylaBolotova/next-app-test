@@ -4,8 +4,8 @@ import styles from "./aboutPage.module.css";
 
 export default function AboutPage() {
   return (
-    <div>
-      <h1 className={styles.title}>Our teachers</h1>
+    <main>
+      <h2 className={styles.title}>Our teachers</h2>
     <ul className={styles.lecturersList}>
       {lessons.lectures.map((lecture) => {
         return (
@@ -19,6 +19,6 @@ export default function AboutPage() {
         );
       })}
     </ul>
-    </div>
+    </main>
   );
 }

@@ -12,25 +12,25 @@ export default async function ArticlePage({ params }: Params) {
 
   if (article) {
     return (
-      <div className={styles.sectionLecturer}>
-      <p>{article.name}</p>
+      <main className={styles.sectionLecturer}>
+      <h2>{article.name}</h2>
       <div>
       <Image
           src={article.image}
           alt={`Foto of ${article.name}`}
           loading="eager"
           width={350}
-          height={200}
+          height={250}
          
         />
       </div>
         <p>{article.text}</p>
-      </div>
+      </main>
     );
   } else {
     return (
       <div>
-        <h1>There is no such lecturer on our list yet</h1>
+        <h2>There is no such lecturer on our list yet</h2>
         <AppLink href="/">Go Home</AppLink>
       </div>
     );
