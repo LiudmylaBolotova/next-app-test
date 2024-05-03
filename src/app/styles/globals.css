@@ -13,29 +13,27 @@ body {
 h1 {
   font-size: xx-large;
   font-weight: bolder;
-  
   color: var(--headerMain);
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h2 {
   font-size: xx-large;
-  font-weight:500;
-
+  font-weight: 500;
+  color: var(--headerMain);
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h3 {
   font-size: xx-large;
   font-weight:400;
-
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h4 {
   font-size: xx-large;
   font-weight:300;
-
+  color: var(--headerMain);
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
