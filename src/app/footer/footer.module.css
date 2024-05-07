@@ -1,9 +1,16 @@
 .sectionFooter {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
     padding-bottom: 20px;
+}
+
+.sectionAdress {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .sectionIcons {
