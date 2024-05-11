@@ -1,9 +1,21 @@
+import lecturer from '../../../public/Images/lecturer.jpg';
+import Image from 'next/image';
 import styles from "./footer.module.css";
 import {AppLink} from "../app-link/app-link";
 
 export default function Footer() {
   return (
     <div className={styles.sectionFooter}>
+       <div>
+        <Image
+          src={lecturer}
+          alt={'Logo'}
+          loading="eager"
+          width={80}
+          height={50}
+         className={styles.logo}
+        />
+            </div>
       <div className={styles.sectionAdress}>
         <h5>Write to us</h5>
         <AppLink href="mailto:email@example.com">email@example.com</AppLink>
