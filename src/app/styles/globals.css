@@ -49,6 +49,8 @@ h5 {
   margin-bottom: 5px;
   margin-top: 15px;
   text-decoration: underline;
+  color: var(--headerMain);
+
 }
 
 ul li {

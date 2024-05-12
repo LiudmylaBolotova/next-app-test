@@ -19,8 +19,20 @@
 
 }
 
+.iconLink:not(:last-child) {
+  margin-right: 10px;
+}
+
 .sectionIcons {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+}
+
+.iconLinkedin, .iconFacebook {
+  fill: var(--iconSocial);
+}
+
+.iconInstagram {
+  fill: var(--iconInstagram);
 }

@@ -11,7 +11,7 @@ export function AppLink({
   href: string | UrlObject;
 }) {
   return (
-    <Link className={styles.root} href={href}>
+    <Link className={styles.root} href={href} target="_blank" rel="noopener noreferrer">
       {children}
     </Link>
   );
