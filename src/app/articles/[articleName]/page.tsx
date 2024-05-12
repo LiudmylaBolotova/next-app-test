@@ -31,7 +31,9 @@ export default async function ArticlePage({ params }: Params) {
     return (
       <div>
         <h2>There is no such lecturer on our list yet</h2>
+        <div>
         <AppLink href="/">Go Home</AppLink>
+        </div>
       </div>
     );
   }
