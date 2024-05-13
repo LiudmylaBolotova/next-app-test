@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import Header from './header/header';
 import Footer from './footer/footer';
 import "../app/styles/globals.css";
+import Loader from "react-loader-spinner";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Header/>
+  
+
         {children}
         <Footer/>
         </body>
