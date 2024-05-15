@@ -5,13 +5,15 @@ import { UrlObject } from 'url';
 
 export function AppLink({
   children,
-  href,
+  href
 }: {
   children: ReactNode;
   href: string | UrlObject;
+  target?: string,
+  rel?: string,
 }) {
   return (
-    <Link className={styles.root} href={href} target="_blank" rel="noopener noreferrer">
+    <Link className={styles.root} href={href}>
       {children}
     </Link>
   );

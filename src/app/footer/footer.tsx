@@ -18,32 +18,32 @@ export default function Footer() {
       </div>
       <div className={styles.sectionAdress}>
         <h5>Write to us</h5>
-        <AppLink href="mailto:email@example.com">email@example.com</AppLink>
+        <AppLink href="mailto:email@example.com" target="_blank" rel="noopener noreferrer">email@example.com</AppLink>
         <h5>Call us</h5>
         <AppLink href="tel:+1234567890">+1 (234) 567-890</AppLink>
       </div>
 
       <div className={styles.sectionIcons}>
         <div className={styles.iconLink}>
-          <AppLink href="https://www.linkedin.com">
+          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
             <svg width="26" height="26" className={styles.iconLinkedin}>
               <use href="/assets/icons.svg#icon-linkedin"></use>
             </svg>
-          </AppLink>
+          </a>
         </div>
         <div className={styles.iconLink}>
-          <AppLink href="https://www.instagram.com">
+          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
             <svg width="26" height="26" className={styles.iconInstagram}>
               <use href="/assets/icons.svg#icon-instagram"></use>
             </svg>
-          </AppLink>
+          </a>
         </div>
         <div className={styles.iconLink}>
-          <AppLink href="https://www.facebook.com">
+          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
             <svg width="26" height="26" className={styles.iconFacebook}>
               <use href="/assets/icons.svg#icon-facebook2"></use>
             </svg>
-          </AppLink>
+          </a>
         </div>
       </div>
     </div>
