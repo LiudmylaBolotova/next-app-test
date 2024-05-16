@@ -1,7 +1,6 @@
 import lecturer from "../../../public/Images/lecturer.jpg";
 import Image from "next/image";
 import styles from "./footer.module.css";
-import { AppLink } from "../app-link/app-link";
 
 export default function Footer() {
   return (
@@ -18,9 +17,9 @@ export default function Footer() {
       </div>
       <div className={styles.sectionAdress}>
         <h5>Write to us</h5>
-        <AppLink href="mailto:email@example.com" target="_blank" rel="noopener noreferrer">email@example.com</AppLink>
+        <a href="mailto:email@example.com" target="_blank" rel="noopener noreferrer">email@example.com</a>
         <h5>Call us</h5>
-        <AppLink href="tel:+1234567890">+1 (234) 567-890</AppLink>
+        <a href="tel:+1234567890">+1 (234) 567-890</a>
       </div>
 
       <div className={styles.sectionIcons}>

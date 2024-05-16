@@ -9,8 +9,6 @@ export function AppLink({
 }: {
   children: ReactNode;
   href: string | UrlObject;
-  target?: string,
-  rel?: string,
 }) {
   return (
     <Link className={styles.root} href={href}>

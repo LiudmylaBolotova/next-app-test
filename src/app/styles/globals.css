@@ -65,3 +65,12 @@ ol li::marker {
 p {
   margin: 0;
 }
+
+a {
+  text-decoration: none;
+    color: inherit;
+
+    &:hover, &:focus, &:active {
+color: var(--blue);
+    }
+  }
